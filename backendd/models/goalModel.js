@@ -15,7 +15,7 @@ const goalSchema=mongoose.Schema({
    
 },
 {
-    timestamps:true
+    timestamps:true,
 })
 
 module.exports=mongoose.model("Goal",goalSchema);
